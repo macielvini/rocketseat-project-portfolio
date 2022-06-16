@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #22212c;
+  color: #837e9f;
+}
+
+h1 {
+  font-size: 23px;
+  font-weight: 700;
+  line-height: auto;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #837e9f;
+}
+
+.icon {
+  filter: invert(60%) sepia(50%) saturate(217%) hue-rotate(209deg)
+    brightness(77%) contrast(74%);
+}
+
+.page {
+  font-family: "Merriweather Sans", sans-serif;
+
+  display: flex;
+  gap: 60px;
+
+  margin: 40px;
+  justify-content: center;
+
+  /* width: 100vh; */
+}
+
+.card {
+  background: #302f3d;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.text {
+  font-size: 14px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 348px;
+}
+
+.profile {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  align-content: center;
+  height: 292px;
+}
+
+.profile-pic {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  margin: 30px;
+}
+
+.profile .profile-pic {
+  border: 2px solid #00ff00;
+}
+
+.profile h2 {
+  font-size: 13px;
+  font-weight: 300;
+  margin: 10px 0 0;
+}
+
+.info ul {
+  padding: 0;
+  margin: 30px 40px;
+}
+
+.info li {
+  margin-bottom: 20px;
+}
+
+.info li,
+.info li a {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.info li img {
+  margin-right: 20px;
+}
+
+.techs {
+  padding: 30px 20px;
+}
+
+.techs h2 {
+  margin-bottom: 20px;
+}
+
+.techs .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  justify-items: center;
+}
+
+.techs li {
+  font-size: 10px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  line-height: 24px;
+
+  width: 86px;
+  height: 24px;
+
+  background: #cb92b1;
+  border-radius: 30px;
+}
+
+.experience,
+.education {
+  padding: 20px;
+}
+
+.experience h2,
+.education h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.experience ul,
+.education ul {
+  list-style: disc;
+  margin-left: 40px;
+  padding-bottom: 10px;
+}
+
+.experience li, .education li {
+  margin-bottom: 18px;
+}
+
+.date {
+  font-weight: 300;
+}
+
+.projects > div {
+  margin-bottom: 30px;
+}
+
+.see-all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 30px;
+}
+
+.see-all a {
+  font-size: 14px;
+}
+
+.recent-projects {
+  display: flex;
+  gap: 30px;
+}
+
+.project {
+  padding: 30px;
+}
+
+.project-title {
+  display: flex;
+  align-items: center;
+}
+
+.project-title .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+
+.project-title h3 {
+  font-size: 16px;
+}
+
+.project article > p {
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+.project-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-status ul {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.project-status li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.language {
+  display: flex;
+  gap: 8px;
+}
+
+.language .eclipe {
+  width: 15px;
+  height: 15px;
+
+  background: #e7de79;
+
+  border: 2px solid #837e9f;
+  border-radius: 50%;
+}
+
+#recent-posts {
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.post {
+  display: flex;
+  padding: 30px 30px 42px 30px;
+}
+
+.post .profile-pic {
+  margin: 0;
+
+}
+
+.post section {
+  width: 612px;
+  margin-left: 20px;
+}
+
+.post h3 {
+  font-size: 18px;
+}
+
+.post .description {
+  margin: 28px 0 11px;
+}
+
+.post ul {
+  display: flex;
+  gap: 10px;
+}
+
+#creditos {
+  width: 100%;
+  text-align: center;
+
+  margin: 0 auto 20px;
+}
